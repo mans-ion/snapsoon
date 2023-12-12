@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Kalnia:wght@700&family=Montserrat:ital,wght@0,100;0,200;0,600;1,100&family=Poppins:wght@200;300;500&family=Prompt:wght@100;200;300;400;500&family=Rethink+Sans&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    height: 70px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    margin-top: 15px;
+    margin: 13px 0 0 35px;
+    font-weight: 700;
+    font-size: 35px;
+    background: linear-gradient(to left, red, orange);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Kalnia', sans-serif;
+}
+
+.snap {
+    color: #B99470;
+    font-size: 35px;
+}
+
+.soon {
+    color: #5B9A8B;
+    font-size: 35px;
+}
+
+.world {
+    color: orange;
+}
+
+.wide {
+    color: navy;
+}
+
+.stuff {
+    color: green;
+}
+
+.search {
+    height: 25px;
+    padding: 16px;
+    border: gray solid;
+    border-radius: 20px;
+    /* margin-right: 10px; */
+    margin: 18px 70px 0 0;
+}
+
+.content {
+    text-align: center;
+}
+
+.image1 {
+    opacity: 90%;
+    height: 700px;
+    width: 100%;
+    /* border-radius: 50px; */
+    display: inline-block;
+    position: relative;
+
+}
+
+a .shop {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    transform: translateY(9rem);
+    padding: 18px;
+    background-color: white;
+    color: red;
+    border-radius: 25px;
+    border: none;
+    left: 15rem;
+    transition: 0.3s ease-in-out;
+}
+
+.shop:hover {
+    background-color: red;
+    color: white;
+}
+
+.catogories {
+    font-family: 'Rethink Sans', sans-serif;
+    margin-left: 6.5rem;
+    font-weight: 100;
+    /* text-align: center; */
+}
+
+.grid {
+    display: grid;
+    margin-left: 5rem;
+    grid-template-columns: repeat(7, 150px);
+    grid-template-rows: repeat(2, 200px);
+}
+
+.grid .cat1 a img {
+    width: 150px;
+    height: 200px;
+
+}
+
+
+
+
+/* .grid {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    gap: 1rem;
+}
+
+.grid .box1 a img {
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    margin-left: 0.5rem;
+}
+
+.box2 a img {
+    width: 400px;
+    height: 250px;
+} */
